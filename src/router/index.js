@@ -19,8 +19,7 @@ const routes = [
         content: 'Parents and students earn TutorZ coin (TTZ) when they purchase tutoring on the TutorZ.com platform. Tutors are being rewarded with TTZ when teaching students. Thereafter, use TTZ coins to get free tutoring.'
       }]
     }    
-  },
-  {
+  },{
     path: '/faucet',
     component: Faucet,
     meta: {
@@ -30,8 +29,7 @@ const routes = [
         content: 'Use this TTZ faucet to drip 10 TTZ coins into your MetaMask wallet.'
       }]
     }      
-  },
-  {
+  },{
     path: '/contract',
     component: Contract,
     meta: {
@@ -41,8 +39,7 @@ const routes = [
         content: 'Information about the TTZ contract and blockchain.'
       }]
     }     
-  },
-  {
+  },{
     path: '/address-book',
     component: AddressBook,
     meta: {
@@ -52,8 +49,7 @@ const routes = [
         content: 'Wallet addresses holding TTZ coin'
       }]
     }         
-  },
-  {
+  },{
     path: '/polygon',
     component: PolygonScan,
     meta: {
@@ -61,6 +57,16 @@ const routes = [
       metaTags: [{
         name: 'description',
         content: "The smart contract holding the TTZ tokens runs on Polygon's Mumbai test network."
+      }] 
+    }   
+  },{
+    path: '/about-dirk',
+    component: AboutDirk,
+    meta: {
+      title: 'Blockchain developer Dirk',
+      metaTags: [{
+        name: 'description',
+        content: "I am a blockchain developer with hands-on experience of designing and implementing decentralized applications as well as full-stack web apps."
       }] 
     }   
   }
