@@ -97,6 +97,7 @@ export default {
 			{ title: 'Contract', route: '/contract', icon: 'scale-balance' },
 			{ title: 'Address Book', route: '/address-book',  icon: 'bookshelf' },
 			{ title: 'Polygon', route: '/polygon',  icon: 'hexagon-slice-2' },
+			{ title: 'Dirk Wagner', route: '/dirk-wagner',  icon: 'account-tie' },
 		]
 	}),
  	methods: {

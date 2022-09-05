@@ -1,8 +1,8 @@
 <template>
   <v-app>
-    <Navbar/>
+    <Navbar v-if="!$route.meta.hideNavbar" />
     <v-main>
-      <v-container fluid>
+      <v-container class="pa-0" fluid >
         <router-view/>
       </v-container>
     </v-main>

@@ -1,10 +1,12 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '@/views/Home.vue'
-import Faucet from '@/views/Faucet.vue'
-import Contract from '@/views/Contract.vue'
-import AddressBook from '@/views/AddressBook.vue'
-import PolygonScan from '@/views/PolygonScan.vue'
+import Vue          from 'vue'
+import VueRouter    from 'vue-router'
+import Home         from '@/views/Home.vue'
+import Faucet       from '@/views/Faucet.vue'
+import Contract     from '@/views/Contract.vue'
+import AddressBook  from '@/views/AddressBook.vue'
+import PolygonScan  from '@/views/PolygonScan.vue'
+import DirkWagner   from '@/views/DirkWagner.vue'
+import Certificates from '@/views/Certificates.vue'
 
 Vue.use(VueRouter)
 
@@ -60,14 +62,22 @@ const routes = [
       }] 
     }   
   },{
-    path: '/about-dirk',
-    component: AboutDirk,
+    path: '/dirk-wagner',
+    component: DirkWagner,
     meta: {
-      title: 'Blockchain developer Dirk',
+      title: 'Blockchain developer Dirk Wagner',
       metaTags: [{
         name: 'description',
-        content: "I am a blockchain developer with hands-on experience of designing and implementing decentralized applications as well as full-stack web apps."
-      }] 
+        content: "Dirk Wagner is a blockchain developer with hands-on experience of designing and implementing decentralized applications as well as full-stack web apps."
+      }],
+      hideNavbar: true
+    }   
+  },{
+    path: '/certificates',
+    component: Certificates,
+    meta: {
+      title: "Dirk's blockchain certificates",
+      hideNavbar: true
     }   
   }
 ]

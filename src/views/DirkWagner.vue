@@ -7,7 +7,7 @@
 
           <v-card-text class="blue-grey--text title text-center">
             <v-icon x-large>mdi-hexagon-slice-2</v-icon>
-             About Dirk
+             About Blockchain Developer Dirk Wagner
           </v-card-text>
 
         </v-card>
