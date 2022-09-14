@@ -5,8 +5,6 @@ import Faucet       from '@/views/Faucet.vue'
 import Contract     from '@/views/Contract.vue'
 import AddressBook  from '@/views/AddressBook.vue'
 import PolygonScan  from '@/views/PolygonScan.vue'
-import DirkWagner   from '@/views/DirkWagner.vue'
-import Certificates from '@/views/Certificates.vue'
 
 Vue.use(VueRouter)
 
@@ -60,24 +58,6 @@ const routes = [
         name: 'description',
         content: "The smart contract holding the TTZ tokens runs on Polygon's Mumbai test network."
       }] 
-    }   
-  },{
-    path: '/dirk-wagner',
-    component: DirkWagner,
-    meta: {
-      title: 'Blockchain developer Dirk Wagner',
-      metaTags: [{
-        name: 'description',
-        content: "Dirk Wagner is a blockchain developer with hands-on experience of designing and implementing decentralized applications as well as full-stack web apps."
-      }],
-      hideNavbar: true
-    }   
-  },{
-    path: '/certificates',
-    component: Certificates,
-    meta: {
-      title: "Dirk's blockchain certificates",
-      hideNavbar: true
     }   
   }
 ]
@@ -134,6 +114,5 @@ router.beforeEach((to, from, next) => {
 
   next();
 });
-
 
 export default router
