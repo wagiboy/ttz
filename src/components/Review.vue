@@ -34,12 +34,8 @@
         </v-sheet>
       </v-card-text>
 
-      <v-spacer></v-spacer>
-
       <v-card-actions>
-        <v-btn class="primary white--text" block @click="ok()">
-          Ok
-        </v-btn> 
+        <v-btn class="primary white--text" block @click="ok()">Ok</v-btn> 
       </v-card-actions>  
 
     </v-card>

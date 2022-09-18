@@ -8,8 +8,7 @@
         width="200"
         src="@/assets/faucet.gif"        
         class="mx-auto"
-      >           
-      </v-img>
+      />           
       <v-card-title class="primary--text display-1 ">                       
         Faucet
       </v-card-title> 

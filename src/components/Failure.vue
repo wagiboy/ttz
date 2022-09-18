@@ -1,7 +1,7 @@
 <template>
   <v-container class="d-flex pa-0" style="min-height: 450px">
     <v-card class="align-self-center mx-auto text-center" flat>
-      <v-icon class="blue-grey--text mx-auto" x-large>mdi-emoticon-dead-outline</v-icon>
+      <v-icon class="blue-grey--text" x-large>mdi-emoticon-dead-outline</v-icon>
 
       <v-card-text class="blue-grey--text text--darken-2 pa-3">
         <p class="subtitle-1">Transaction failure!</p>

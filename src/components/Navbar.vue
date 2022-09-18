@@ -4,7 +4,7 @@
 
 			<!-- website logo and name -->
 			<v-app-bar-nav-icon @click="toggleDrawer()" width="54" class="blue-grey--text ml-0 hidden-md-and-up"></v-app-bar-nav-icon>
-			<div class="align-center hidden-sm-and-down">
+			<div class="hidden-sm-and-down">
 				<a href="/">
 					<v-img
 						alt="TTZCoin Logo"					

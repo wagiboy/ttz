@@ -19,8 +19,7 @@
 					transition="scale-transition"
 					contain
 					height="450"        
-        >
-        </v-img>
+        />
       </v-col>
     </v-row>
 
@@ -64,7 +63,7 @@
       </v-col>
     </v-row>
 
-    <Faucet marginTop="mt-15 pt-13" />  <!-- @drip-start="fjkdk"  -->
+    <Faucet marginTop="mt-15 pt-13" />  
     <Contract marginTop="mt-15 pt-13"/>
     <AddressBook marginTop="mt-15 pt-15"/>
     <PolygonScan marginTop="mt-15 pt-15"/>
