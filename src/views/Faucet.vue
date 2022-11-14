@@ -21,11 +21,9 @@
             outlined
             label="Wallet Address"
             prepend-inner-icon="mdi-wallet"            
-            class=""
             v-model="address" 
             @blur="validateAddress()"
             @focus="resetError()"
-            ref="address"   
             :rules="[rules]"
             :error-messages="errMsg"
             :append-icon="appendIcon"                              
